@@ -1,0 +1,38 @@
+{
+    "name": "Starter Template",
+    "description": "A modern starter template for AI, Web3, or SaaS apps using Next.js 14, TypeScript, Tailwind CSS, Supabase, and Shadcn UI.",
+    "structure": {
+      "src/": {
+        "app/": "Next.js App Router routes, layouts, and server actions",
+        "components/": {
+          "ui/": "Shadcn UI components (generated via CLI) and shared UI primitives",
+          "layout/": "Navigation, sidebar, header, and shell components"
+        },
+        "lib/": "Utilities, API clients, database setup, and app-wide configuration",
+        "hooks/": "Custom React hooks for client-side logic",
+        "types/": "Global TypeScript definitions and interfaces",
+        "styles/": "Tailwind base, globals, and overrides (e.g., globals.css, tailwind.css)"
+      }
+    },
+    "conventions": {
+      "framework": "Next.js 14 App Router",
+      "language": "TypeScript",
+      "styling": "Tailwind CSS",
+      "ui": "Shadcn UI + MagicUI extensions",
+      "icons": "Lucide React",
+      "animations": "Framer Motion",
+      "auth": "Supabase Auth",
+      "database": "Supabase PostgreSQL"
+    },
+    "guidelines": {
+      "components": {
+        "ui": "Use `npx shadcn-ui add <component>` to generate Shadcn primitives into components/ui; extend with MagicUI when needed.",
+        "shared": "Cross-feature UI belongs in components/ui or components/layout, avoid duplicating."
+      },
+      "hooks": "Prefix with `use-` and place inside src/hooks for reusable client logic.",
+      "types": "Keep global TS types in src/types; generate supabase.ts from Supabase schema.",
+      "lib": "Place utilities, API wrappers, database clients, and config here. Server-only code should be isolated.",
+      "app": "Colocate feature-specific components, actions, and hooks within their route folder under src/app/."
+    }
+  }
+  
