@@ -32,50 +32,6 @@ This application demonstrates **semantic search with pgvector embeddings**, **na
 
 ---
 
-## 🛠 Getting Started
-
-### Prerequisites
-- Node.js 18+  
-- npm, yarn, or pnpm  
-
-### Quick Start
-1. **Clone and Install**:
-   ```bash
-   git clone https://github.com/your-username/huma-gpt
-   cd huma-gpt
-   npm install
-   ```
-
-2. **Environment Setup**:
-   Create `.env.local` with:
-   ```env
-   # Supabase
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-   
-   # OpenAI (for semantic search)
-   OPENAI_API_KEY=your_openai_api_key
-   ```
-
-3. **Database Setup**:
-   ```bash
-   # Follow the detailed guide in FREELANCER_SEARCH_SETUP.md
-   # Execute the SQL migrations in your Supabase dashboard
-   ```
-
-4. **Start Development**:
-   ```bash
-   npm run dev
-   ```
-
-5. **Visit the App**: Open [http://localhost:3000](http://localhost:3000) 🎉
-
-### 📖 Detailed Setup Guide
-For complete setup instructions including database schema, sample data, and testing, see **[FREELANCER_SEARCH_SETUP.md](./FREELANCER_SEARCH_SETUP.md)**.  
-
----
-
 ## 📂 Project Structure
 
 ```
