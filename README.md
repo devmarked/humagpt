@@ -6,6 +6,9 @@ This application demonstrates **semantic search with pgvector embeddings**, **na
 
 ---
 
+![HumaGPT Screenshot](https://github.com/devmarked/humagpt/blob/main/public/images/huma.png)
+
+---
 ## ✨ Features
 
 ### 🔍 AI-Powered Search
